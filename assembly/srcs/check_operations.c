@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   check_operations.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mjouffro <mjouffro@student.42.fr>          +#+  +:+       +#+        */
+/*   By: yabecret <yabecret@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/15 17:47:49 by mjouffro          #+#    #+#             */
-/*   Updated: 2020/01/22 14:38:36 by mjouffro         ###   ########.fr       */
+/*   Updated: 2020/01/24 00:41:13 by yabecret         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,7 @@ int			check_arg_type(t_asm *asm_f, t_operation *operation, int index)
 		asm_f->size_tracker += 1;
 	while (i < operation->len)
 	{
-		if ((type = check_arg(rm_space_around(operation->op[i]))) != 0)
+		if (operation->op[i] && ((type = check_arg(rm_space_around(operation->op[i]))) != 0)) ////////////////////////
 		{
 			if (!check_type(type, i, index))
 				return (errors(6));

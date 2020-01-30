@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   operations.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mjouffro <mjouffro@student.42.fr>          +#+  +:+       +#+        */
+/*   By: yabecret <yabecret@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/15 17:47:44 by mjouffro          #+#    #+#             */
-/*   Updated: 2020/01/20 20:21:15 by mjouffro         ###   ########.fr       */
+/*   Updated: 2020/01/24 01:07:29 by yabecret         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,9 +63,10 @@ char			**op_token(char *s, char *tmp, size_t nb_args, int cnt)
 	{
 		tmp = ft_strsub(tmp, 0, s - tmp);
 		*(new++) = ft_strtrim(tmp);
+		cnt++;  /////////////////////////////////
 		free(tmp);
 	}
-	return (new - nb_args);
+	return (new - cnt); /////////////////////////////
 }
 
 void			add_op(t_operation **op, t_operation *new)
