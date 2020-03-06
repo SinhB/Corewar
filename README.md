@@ -5,6 +5,13 @@
 - The corewar is a game, a very special game. It consists in making small programs fight in a virtual machine.<br/>
 - The goal of the game is to prevent other programs from functioning correctly, by any means necessary.<br/>
 
+<h1>The team :</h1><br/>
+
+Mathieu (https://github.com/MathieuJouffroy)
+Etienne (https://github.com/EtienneViana)
+Andrew (https://github.com/andrewrzepecki)
+Yann (https://github.com/SinhB)
+
 <h1>Installation :</h1><br/>
 
 <pre><code>git clone https://github.com/SinhB/Corewar.git & cd Corewar & make</code></pre><br/>
