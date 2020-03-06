@@ -1,5 +1,9 @@
 # Corewar
 
+<h1>About :</h1><br/>
+
+- The corewar is a game, a very special game. It consists in making small programs fight in a virtual machine.<br/>
+- The goal of the game is to prevent other programs from functioning correctly, by any means necessary.<br/>
 
 <h1>Installation :</h1><br/>
 
