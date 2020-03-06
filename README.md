@@ -7,10 +7,10 @@
 
 <h1>The team :</h1><br/>
 
-Mathieu (https://github.com/MathieuJouffroy)
-Etienne (https://github.com/EtienneViana)
-Andrew (https://github.com/andrewrzepecki)
-Yann (https://github.com/SinhB)
+[Mathieu](https://github.com/MathieuJouffroy)<br/>
+[Etienne](https://github.com/EtienneViana)<br/>
+[Andrew](https://github.com/andrewrzepecki)<br/>
+[Yann](https://github.com/SinhB)<br/>
 
 <h1>Installation :</h1><br/>
 
